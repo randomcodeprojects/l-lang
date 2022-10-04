@@ -1,0 +1,13 @@
+func fizzbuzz number count -> void
+	repeat count as n
+		if n % 3 === 0 && n % 5 === 0
+			write "Fizzbuzz"
+		elif n % 3 === 0
+			write "Fizz"
+		elif n % 5 === 0
+			write "buzz"
+		else
+			write n
+		end
+	end
+end
